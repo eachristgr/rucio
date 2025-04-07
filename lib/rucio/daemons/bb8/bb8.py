@@ -22,7 +22,7 @@ import socket
 import threading
 from typing import TYPE_CHECKING, Optional
 
-from rucio.common.config import config_get_float, config_get
+from rucio.common.config import config_get, config_get_float
 from rucio.common.exception import InvalidRSEExpression
 from rucio.common.logging import setup_logging
 from rucio.core.heartbeat import list_payload_counts, sanity_check
